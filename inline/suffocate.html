@@ -1,0 +1,44 @@
+<div id="rectangle"></div>
+<div class="tiny-rectangle" id="a"></div>
+<div class="tiny-rectangle" id="b"></div>
+<div class="tiny-rectangle" id="c"></div>
+<div class="tiny-rectangle" id="d"></div>
+<style>
+  div {
+    position: fixed;
+  }
+  #rectangle {
+    width: 140px;
+    height: 140px;
+    transform: rotate(45deg);
+    left: 130px;
+    top: 80px;
+    background-color: #1a4341;
+    position: fixed;
+  }
+  .tiny-rectangle {
+    width: 200px;
+    height: 200px;
+    background-color: #f3ac3c;
+    border-radius: 100px;
+  }
+  #a {
+    top: -50px;
+    left: 200px;
+  }
+  #b {
+    top: -50px;
+    left: 0px;
+  }
+  #c {
+    top: 150px;
+    left: 200px;
+  }
+  #d {
+    top: 150px;
+    left: 0px;
+  }
+  body {
+    background-color: #f3ac3c;
+  }
+</style>
